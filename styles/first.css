@@ -1,0 +1,52 @@
+.pictures {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box {
+    background-color: lightgray;
+    padding: 3% 0;
+}
+
+body {
+    text-align: center;
+    background-color: darkgray;
+}
+
+table {
+    margin: 30px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: solid 1px;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    margin-top: -30px;
+    text-align: left;
+}
+
+img {
+    width: 500px;
+}
+
+.small {
+    font-size: small;
+    margin-top: -2%;
+}
+
+@media (max-width: 1050px) {
+    .pictures {
+        flex-direction: column;
+    }
+    .box {
+        margin: 0 8%;
+    }
+    img {
+        width: 95%;
+    }
+}
